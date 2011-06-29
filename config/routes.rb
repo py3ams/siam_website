@@ -1,4 +1,25 @@
 SiamWebsite::Application.routes.draw do
+ # get "pages/home"
+
+ # get "pages/join"
+
+ # get "pages/events"
+
+ # get "pages/committee"
+
+ # get "pages/conference"
+
+ # get "pages/links"
+  
+  root :to => 'pages#home'
+  match '/join', :to => 'pages#join'
+  match '/events',   :to => 'pages#events'
+  match '/committee',    :to => 'pages#committee'
+  match '/conference', :to => 'pages#conference'
+  match '/links',   :to => 'pages#links'
+  
+ 
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

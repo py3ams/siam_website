@@ -1,0 +1,159 @@
+body{
+	font-family:Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(256, 256, 256);
+}
+
+#container{
+	margin: 20px auto;
+	width: 800px;
+	background-color:rgb(256,256,256);
+	border-style:double;	
+	border-width:10px;
+	border-color:rgb(0, 33, 71);
+}
+
+#header_and_logo{
+	margin-top: 5px;	
+	margin-bottom: 10px;	
+	text-align: center;
+	color: rgb(0, 33, 71);
+}
+
+.main_header{
+	margin-top: 15px;
+	margin-bottom: 10px;	
+	font-size: 60px;
+	text-align: center;
+	color: rgb(0, 33, 71);
+}
+
+.second_header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 34px;
+	text-align: center;
+	color: rgb(0, 33, 71);
+}
+
+.siam_logo{
+	margin-top: 10px;
+	margin-bottom: 0px;	
+	width: 290px; 
+	height: 97px; 
+} 
+
+.normal_section{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: black;
+	font-size:16px;
+	line-height:1.3;
+}
+
+.normal_header{
+	margin-top: 0px;
+	margin-bottom: 12px;
+	color: rgb(0, 33, 71);
+	font-size:22px;
+}
+
+.line_break{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: rgb(0, 33, 71);
+}
+
+#comments_and_corrections{
+	margin-top: 0px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	margin-right: 20px;	
+	font-size:12px;
+	font-weight:bold;
+	text-align:left;
+	color: rgb(0, 33, 71);
+}
+
+.left_side_photo{
+	width:400px;
+	text-align:center;
+}
+
+.right_side_photo{
+	float:right;
+	width:400px;
+	text-align:center;
+	
+}
+
+.generic_image{
+	border-style: solid; 
+	border-color: rgb(0, 33, 71);
+	border-width: 3px;
+}
+
+.big_image{
+	width: 380px; 
+	border-style:solid; 
+	border-color:rgb(0, 33, 71);
+	border-width:2px;
+}
+
+.bullets{
+	margin-bottom:10px;
+}
+
+.normal_text{
+	margin-top: 0px;
+	margin-bottom: 0px;	
+	color: black;
+	text-align:justify;
+}	
+
+#winton_logo{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 20px;	
+	text-align: center; 
+	font-weight: 700; 
+	font-family: serif;
+}
+
+#links_section{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size:20px;
+	word-spacing:14px;
+	text-align:center;
+	font-weight:bold;	
+	font-style:italic;
+}
+
+.top_links{
+	text-decoration:none;
+	word-spacing:1px;
+}
+
+
+a:link { 
+	color:rgb(0, 33, 71);
+}
+
+a:visited { 
+	color:rgb(0, 33, 71);
+}
+
+a:hover { 
+	color:rgb(139, 117, 0);
+}
+
+a:active { 
+	color:rgb(139, 117, 0);
+} 

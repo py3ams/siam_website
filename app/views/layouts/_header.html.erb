@@ -1,0 +1,16 @@
+<header>
+  <% university_logo = image_tag("2258_ox_brand_blue_pos_rect.png", :alt => "University of Oxford logo", :class => "siam_logo") %>
+  <% siam_logo = image_tag("siam-logo.gif", :alt => "University of Oxford logo", :class => "siam_logo") %>
+  <%= link_to university_logo, "http://www.ox.ac.uk" %>
+  <%= link_to siam_logo, "http://www.siam.org" %>
+  <nav class="round">
+    <ul>
+      <li><%= link_to "Home", root_path %></li>
+      <li><%= link_to "Join", join_path %></li>
+      <li><%= link_to "Events", events_path %></li>
+      <li><%= link_to "Committee", committee_path %></li>
+      <li><%= link_to "Conference", conference_path %></li>
+      <li><%= link_to "Links", links_path %></li>
+   </ul>
+  </nav>
+</header>
