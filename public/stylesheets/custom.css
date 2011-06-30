@@ -1,102 +1,66 @@
 .container {
   width: 710px;
+  border-style:double;	
+  border-width:10px;
+  border-color:rgb(0, 33, 71);
+  margin: 20px auto;
+  background: rgb(256,256,256);
 }
 
 body {
-  background: #cff;
+  background: rgb(200,200,200);
 }
 
-header {
-  padding-top: 20px;
+.line_break{
+	margin-top:0px;
+	width: 650px;
+	margin-left: 30px;
+	color: rgb(0, 33, 71);
 }
 
-header img {
+header img {	
+  width: 325px; 
+  height: 115px; 
   padding: 1em;
-  background: #fff;
-}
-
-section {
-  margin-top: 1em;
-  font-size: 120%;
-  padding: 20px;
-  background: #fff;
-}
-
-section h1 {
-  font-size: 200%;
-}
-
-/* Links */
-
-a {
-  color: #09c;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #069;
-  text-decoration: underline;
-}
-
-a:visited {
-  color: #069;
-}
-
-a.signup_button {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  text-align: center;
-  width: 190px;
-  color: #fff;
-  background: #006400;
-  font-size: 150%;
-  font-weight: bold;
-  padding: 20px;
 }
 
 /* Navigation */
 
 nav {
-  float: right;
-}
-
-nav {
-  background-color: white;
-  padding: 0 0.7em;
-  white-space: nowrap;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
+  font-size:20px;
+  word-spacing:14px;
+  text-align:center;
+  font-weight:bold;	
+  font-style:italic;
 }
 
 nav ul li {
   list-style-type: none;
   display: inline-block;
-  padding: 0.2em 0;
 }
 
-nav ul li a {
-  padding: 0 5px;
-  font-weight: bold;
+a { 
+	color:rgb(0, 33, 71);
+	text-decoration: none;
 }
 
-nav ul li a:visited {
-  color: #09c;
+a:visited { 
+	color:rgb(0, 33, 71);
 }
 
-nav ul li a:hover {
-  text-decoration: underline;
+a:hover { 
+	color:rgb(139, 117, 0);
+	text-decoration: none;
 }
 
-/* Round corners */
+section {
+  font-size: 120%;
+}
 
-.round {
-  -moz-border-radius:    10px;
-  -webkit-border-radius: 10px;
-  border-radius:         10px;
+section h1 {
+  font-size: 300%;
+  text-align: center;
+  color: rgb(0, 33, 71);
 }
 
 footer {
@@ -107,7 +71,18 @@ footer {
   margin-right: auto;
 }
 
-footer nav {
-  float: none;
+footer img {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 20px;	
+	text-align: center; 
+	font-weight: 700; 
+	font-family: serif;
+	width: 320px;
+}
+
+#winton_logo {
+	width:100px
 }
 
